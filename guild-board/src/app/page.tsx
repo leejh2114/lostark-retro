@@ -1,9 +1,24 @@
+import DesktopIcons from "@/components/common/DesktopIcons";
+import Taskbar from "@/components/common/Taskbar";
+import GuildMaster from "@/components/GuildMaster/GuildMaster";
+import Hero from "@/components/Hero/Hero";
+import Intro from "@/components/Intro/Intro";
+import JoinGuide from "@/components/JoinGuide/JoinGuide";
+import RecruitInfo from "@/components/Recruit/RecruitInfo";
+import Welcome from "@/components/Recruit/Welcome";
+
 export default function Home() {
   return (
     <main>
       <div className="desktop">
-        <h1 className="hero-title">레트로</h1>
-        <p className="hero-sub">루페온 서버 길드 모집 페이지</p>
+        <DesktopIcons />
+        <Hero />
+        <Intro />
+        <GuildMaster />
+        <Welcome />
+        <RecruitInfo />
+        <JoinGuide />
+        <Taskbar />
       </div>
     </main>
   );

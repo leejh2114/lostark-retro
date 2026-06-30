@@ -269,3 +269,11 @@
   .pet-small{ width:34px; height:34px; }
   .pet-float-tr{ position:absolute; top:8px; right:12px; }
   .pet-float-br{ position:absolute; bottom:-16px; right:20px; }
+
+  .strip-green {
+  background: linear-gradient(90deg, #1f7a3d, #2c9a52);
+}
+
+.strip-red {
+  background: linear-gradient(90deg, #a5302a, #c0392b);
+}
